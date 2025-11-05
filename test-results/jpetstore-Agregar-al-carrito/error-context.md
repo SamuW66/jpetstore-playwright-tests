@@ -1,0 +1,91 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061
+      - img [ref=e6]
+    - generic [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: /actions/Cart.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCart=
+        - img [ref=e10]
+      - img [ref=e11]
+      - link "Sign In" [ref=e12] [cursor=pointer]:
+        - /url: /actions/Account.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?signonForm=
+      - img [ref=e13]
+      - link "?" [ref=e14] [cursor=pointer]:
+        - /url: ../help.html
+    - generic [ref=e17]:
+      - textbox [ref=e18]
+      - button "Search" [ref=e19]
+    - generic [ref=e20]:
+      - link [ref=e21] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=FISH
+        - img [ref=e22]
+      - img [ref=e23]
+      - link [ref=e24] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=DOGS
+        - img [ref=e25]
+      - img [ref=e26]
+      - link [ref=e27] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=REPTILES
+        - img [ref=e28]
+      - img [ref=e29]
+      - link [ref=e30] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=CATS
+        - img [ref=e31]
+      - img [ref=e32]
+      - link [ref=e33] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=BIRDS
+        - img [ref=e34]
+  - generic [ref=e36]:
+    - generic [ref=e38]:
+      - link [ref=e39] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=FISH
+        - img [ref=e40]
+      - text: Saltwater, Freshwater
+      - link [ref=e41] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=DOGS
+        - img [ref=e42]
+      - text: Various Breeds
+      - link [ref=e43] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=CATS
+        - img [ref=e44]
+      - text: Various Breeds, Exotic Varieties
+      - link [ref=e45] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=REPTILES
+        - img [ref=e46]
+      - text: Lizards, Turtles, Snakes
+      - link [ref=e47] [cursor=pointer]:
+        - /url: /actions/Catalog.action;jsessionid=EE578A51E218064AF0535B4CA46B0061?viewCategory=&categoryId=BIRDS
+        - img [ref=e48]
+      - text: Exotic Varieties
+    - generic [ref=e50]:
+      - generic:
+        - link "Birds":
+          - /url: Catalog.action?viewCategory=&categoryId=BIRDS
+        - link "Fish":
+          - /url: Catalog.action?viewCategory=&categoryId=FISH
+        - link "Dogs":
+          - /url: Catalog.action?viewCategory=&categoryId=DOGS
+        - link "Reptiles":
+          - /url: Catalog.action?viewCategory=&categoryId=REPTILES
+        - link "Cats":
+          - /url: Catalog.action?viewCategory=&categoryId=CATS
+        - link "Birds":
+          - /url: Catalog.action?viewCategory=&categoryId=BIRDS
+      - img [ref=e51]
+  - generic [ref=e52]:
+    - text: Elevate you load-testing with
+    - link "OctoPerf" [ref=e53] [cursor=pointer]:
+      - /url: https://octoperf.com
+    - text: "!"
+  - generic [ref=e54]:
+    - text: Hosted by
+    - link "https://octoperf.com" [ref=e55] [cursor=pointer]:
+      - /url: https://octoperf.com
+    - text: "| Powered by"
+    - link "www.mybatis.org" [ref=e56] [cursor=pointer]:
+      - /url: https://mybatis.org/
+```
